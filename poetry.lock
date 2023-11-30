@@ -264,7 +264,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "ipykernel"
-version = "6.27.0"
+version = "6.27.1"
 description = "IPython Kernel for Jupyter"
 category = "main"
 optional = false
@@ -294,7 +294,7 @@ test = ["flaky", "ipyparallel", "pre-commit", "pytest-asyncio", "pytest-cov", "p
 
 [[package]]
 name = "ipython"
-version = "8.18.0"
+version = "8.18.1"
 description = "IPython: Productive Interactive Computing"
 category = "main"
 optional = false
@@ -307,7 +307,7 @@ exceptiongroup = {version = "*", markers = "python_version < \"3.11\""}
 jedi = ">=0.16"
 matplotlib-inline = "*"
 pexpect = {version = ">4.3", markers = "sys_platform != \"win32\""}
-prompt-toolkit = ">=3.0.30,<3.0.37 || >3.0.37,<3.1.0"
+prompt-toolkit = ">=3.0.41,<3.1.0"
 pygments = ">=2.4.0"
 stack-data = "*"
 traitlets = ">=5"
@@ -383,7 +383,7 @@ format-nongpl = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-
 
 [[package]]
 name = "jsonschema-specifications"
-version = "2023.11.1"
+version = "2023.11.2"
 description = "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
 category = "main"
 optional = false
@@ -946,7 +946,7 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "referencing"
-version = "0.31.0"
+version = "0.31.1"
 description = "JSON Referencing + Python"
 category = "main"
 optional = false
@@ -976,7 +976,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "rpds-py"
-version = "0.13.1"
+version = "0.13.2"
 description = "Python bindings to Rust's persistent data structures (rpds)"
 category = "main"
 optional = false
@@ -1131,7 +1131,7 @@ scipy = ["scipy"]
 
 [[package]]
 name = "tornado"
-version = "6.3.3"
+version = "6.4"
 description = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
 category = "main"
 optional = false
@@ -1156,7 +1156,7 @@ telegram = ["requests"]
 
 [[package]]
 name = "traitlets"
-version = "5.13.0"
+version = "5.14.0"
 description = "Traitlets Python configuration system"
 category = "main"
 optional = false
@@ -1164,7 +1164,7 @@ python-versions = ">=3.8"
 
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
-test = ["argcomplete (>=3.0.3)", "mypy (>=1.6.0)", "pre-commit", "pytest-mock", "pytest-mypy-testing", "pytest (>=7.0,<7.5)"]
+test = ["argcomplete (>=3.0.3)", "mypy (>=1.7.0)", "pre-commit", "pytest-mock", "pytest-mypy-testing", "pytest (>=7.0,<7.5)"]
 
 [[package]]
 name = "triton"
