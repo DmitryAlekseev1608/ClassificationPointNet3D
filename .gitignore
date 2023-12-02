@@ -1,4 +1,3 @@
-ModelNet10/
-/metadata_modelnet10.csv
-conda_venv/
+data/ModelNet10/
+data/metadata_modelnet10.csv
 miniconda_venv/
